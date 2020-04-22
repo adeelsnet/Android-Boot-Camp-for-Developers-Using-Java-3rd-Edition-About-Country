@@ -1,0 +1,2 @@
+rootProject.name='WMM 636 Midterm'
+include ':app'

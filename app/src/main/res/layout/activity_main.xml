@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/txt_margin"
+        android:text="@string/country_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/photosBtn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:background="@color/colorAccent"
+        android:gravity="center|center_vertical"
+        android:text="@string/btn_photos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorBtnTxt"
+        android:layout_marginBottom="@dimen/btn_margin"
+        app:layout_constraintBottom_toTopOf="@+id/currencyConverterBtn"
+        app:layout_constraintEnd_toEndOf="@+id/currencyConverterBtn"
+        app:layout_constraintStart_toStartOf="@+id/currencyConverterBtn" />
+
+    <Button
+        android:id="@+id/currencyConverterBtn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:background="@color/colorAccent"
+        android:gravity="center|center_vertical"
+        android:text="@string/btn_currency_converter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorBtnTxt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/travelTipsBtn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:background="@color/colorAccent"
+        android:gravity="center|center_vertical"
+        android:layout_marginTop="@dimen/btn_margin"
+        android:text="@string/btn_travel_tips"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorBtnTxt"
+        app:layout_constraintEnd_toEndOf="@+id/currencyConverterBtn"
+        app:layout_constraintStart_toStartOf="@+id/currencyConverterBtn"
+        app:layout_constraintTop_toBottomOf="@+id/currencyConverterBtn" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/txt_margin"
+        android:text="@string/my_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

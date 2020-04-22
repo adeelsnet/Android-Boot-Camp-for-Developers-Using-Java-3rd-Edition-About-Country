@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WMM 636 Midterm</string>
+    <string name="country_name">Pakistan</string>
+    <string name="flag_name">Pak Flag</string>
+    <string name="my_name">Adeel A</string>
+    <string name="btn_photos">Photos</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="btn_currency_converter">Currency Converter</string>
+    <string name="btn_travel_tips">Travel Tips</string>
+    <string name="photo_desc1">Himalayan Salt</string>
+    <string name="photo_desc2">Founder and Father of the Nation</string>
+    <string name="photo_desc3">Switzerland of Asia</string>
+    <string name="pk_rupees">Pak Rupees</string>
+    <string name="spinnerPrompt">Select Currency to Convert</string>
+    <string name="interesting_facts">10 Interesting Facts About Pakistan</string>
+    <string name="travel_guide">Travel Guide to Pakistan</string>
+    <string name="everything_free">Why is Everything FREE in Pakistan?</string>
+    <string-array name="spinnerTxt">
+        <item>US Dollar $</item>
+        <item>Euro €</item>
+    </string-array>
+</resources>

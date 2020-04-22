@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_margin">12dp</dimen>
+    <dimen name="btn_width">350dp</dimen>
+    <dimen name="btn_height">65dp</dimen>
+    <dimen name="txt_margin">6dp</dimen>
+    <dimen name="photo_margin">32dp</dimen>
+    <dimen name="photo_size_width">250dp</dimen>
+    <dimen name="photo_size_height">150dp</dimen>
+    <dimen name="text_hint">24sp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+</resources>

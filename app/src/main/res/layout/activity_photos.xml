@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotosActivity">
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/country_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/lake"
+        android:layout_width="@dimen/photo_size_width"
+        android:layout_height="@dimen/photo_size_height"
+        android:layout_marginBottom="@dimen/photo_margin"
+        android:contentDescription="@string/photo_desc3"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/fatherOfTheNation"
+        app:layout_constraintEnd_toEndOf="@+id/fatherOfTheNation"
+        app:layout_constraintStart_toStartOf="@+id/fatherOfTheNation"
+        app:layout_constraintTop_toBottomOf="@+id/country"
+        app:srcCompat="@drawable/lake" />
+
+    <ImageView
+        android:id="@+id/fatherOfTheNation"
+        android:layout_width="@dimen/photo_size_width"
+        android:layout_height="@dimen/photo_size_height"
+        android:contentDescription="@string/photo_desc2"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/country"
+        app:srcCompat="@drawable/jinnah" />
+
+    <ImageView
+        android:id="@+id/himalayanSalt"
+        android:layout_width="@dimen/photo_size_width"
+        android:layout_height="@dimen/photo_size_height"
+        android:layout_marginTop="@dimen/photo_margin"
+        android:contentDescription="@string/photo_desc1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="@+id/fatherOfTheNation"
+        app:layout_constraintStart_toStartOf="@+id/fatherOfTheNation"
+        app:layout_constraintTop_toBottomOf="@+id/fatherOfTheNation"
+        app:srcCompat="@drawable/himalayan_salt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
